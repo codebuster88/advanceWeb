@@ -14,8 +14,8 @@ namespace BootStrapIntro
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
+                name: "CalcApp",
+                url: "{controller}/{action}",
                 defaults: new { controller = "Home", action = "CalcApp", id = UrlParameter.Optional }
             );
         }
