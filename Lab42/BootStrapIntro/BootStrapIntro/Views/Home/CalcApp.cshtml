@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "CalcApp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model string
+<h2>CalcApp</h2>
+
+<p>@Model</p>
+
+<form method="post" action="CalcApp" >
+    <input type="text" name="val1" />
+    <input type="text" name="val2" />
+    <input type="submit" name="method" value="+" />
+    <input type="submit" name="method" value="-" />
+    <input type="submit" name="method" value="x"  />
+    <input type="submit" name="method" value="/" />
+</form>
+
+
+
